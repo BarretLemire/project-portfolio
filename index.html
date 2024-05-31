@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-</head>
-<body>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-    <h1>About Me</h1>
-    <p>
-        Hello, I'm Barret. I'm currently learning web development.
-    </p>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-    <h2>Projects</h2>
-    <div>
-        <h3>
-            <a
-                href="https://github.com/BarretLemire/shopping_project" 
+  <body>
+    <div class="main">
+        <div class="profile">
+          <div class="bitmoji">
+            <img src="path/to/bitmoji.png" alt="Bitmoji">
+            </div>
+            <section class="name">
+                <h3>Barret Lemire</h3>
+                <p>Software Developer</p>
+            </section>
+            <section class="Contact-Info">
+                <div class="Email">
+                    <p>Email</p>
+                    <p>barretlemire@gmail.com</p>
+                </div>
+                <div class="Phone">
+                    <p>Phone Number</p>
+                    <p>916-882-9499</p>
+                </div>
+                <div class="Location">
+                    <p>Location</p>
+                    <p>City: St George</p>
+                    <p>State: Utah</p>
+                </div>
+            </section>
+        </div>
+    <section class="about">
+        <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <article>
+            <h1>About Me</h1>
+            <p>Hello, I'm Barret. I'm currently learning web development.</p>
+          </article>
+    
+          <h2>Projects</h2>
+          <div>
+            <h3>
+              <a
+                href="https://github.com/BarretLemire/shopping_project"
                 target="_blank"
                 >Shopping Cart API</a
-                >
+              >
             </h3>
-        <p>Fast API project that allows the user to manually add items and get a total price.</p>
-    </div>
-    <div>
-        <h3>
-            <a
-                href="https://github.com/BarretLemire/store_api"
-                target="_blank" 
+            <p>
+              Fast API project that allows the user to manually add items and get a
+              total price.
+            </p>
+          </div>
+          <div>
+            <h3>
+              <a href="https://github.com/BarretLemire/store_api" target="_blank"
                 >Store Items</a
-                >
+              >
             </h3>
-        <p>A basic api in-class assignment with all 4 crud operations.</p>
-    </div>
-    <div>
-        <h3>
-            <a
-                href="https://github.com/BarretLemire/snowboarding-shop" 
+            <p>A basic api in-class assignment with all 4 crud operations.</p>
+          </div>
+          <div>
+            <h3>
+              <a
+                href="https://github.com/BarretLemire/snowboarding-shop"
                 target="_blank"
                 >Snowboard Shop</a
-                >
+              >
             </h3>
-        <p>A Snowboard themed FastAPI exercise.</p>
+            <p>A Snowboard themed FastAPI exercise.</p>
+          </div>
+          <section>
+            <h2>Contact Me</h2>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" />
+    
+              <label for="name">Email:</label>
+              <input type="email" id="email" name="email" />
+    
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea>
+    
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+    
+          <p>&copy; 2024 Barret Lemire. All rights reserved.</p>
+
+    </section>
+  
     </div>
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" />
-
-        <label for="name">Email:</label>
-        <input type="email" id="email" name="email" />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-
-        <button type="submit">Submit</button>
-    </form>
-
-    <p>&copy; 2024 Barret Lemire. All rights 
-        reserved.</p>
-    </body>
+  </body>
 </html>

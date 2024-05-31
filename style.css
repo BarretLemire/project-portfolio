@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #968d8d;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.main {
+    display: flex;
+    margin: 50px;
+}
+
+.profile {
+    background-color:  rgb(46, 44, 44);
+    color: rgb(58, 56, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.bitmoji {
+    margin-bottom: 20px;
+}
+
+.bitmoji img {
+    width: 100px; 
+    height: auto;
+    border-radius: 50%;
+}
+
+.name {
+    border-bottom: 1px solid rgb(122, 112, 112);
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.Contact-Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Email {
+    text-align: center;
+}
+
+.Phone {
+    text-align: center;
+}
+
+.Location {
+    text-align: center;
+}
+
+.about {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(46, 44, 44);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+}
